@@ -14,16 +14,16 @@ ms.lasthandoff: 05/04/2018
 ms.locfileid: "33555020"
 ---
 # <a name="how-to-create-a-simple-binding"></a>方法 : 簡単なバインディングを作成する
-この例は、単純なを作成する方法を示します<xref:System.Windows.Data.Binding>です。  
+この例は、単純な<xref:System.Windows.Data.Binding>を作成する方法を示します。  
   
 ## <a name="example"></a>例  
- この例では必要がある、`Person`という名前の文字列プロパティを持つオブジェクト`PersonName`です。 `Person`オブジェクトがという名前空間で定義されている`SDKSample`です。  
+ この例では、`PersonName`という名前の文字列プロパティを持つ`Person`オブジェクトが必要です。 `Person`オブジェクトは`SDKSample`という名前空間で定義されています。  
   
- 強調表示された行を含む、`<src>`次の例で要素をインスタンス化、`Person`オブジェクトを`PersonName`のプロパティの値`Joe`です。 これには、`Resources`セクションし、割り当てられている、`x:Key`です。  
+ 次の例において、`<src>`要素を含む強調表示された行で、値が`Joe`である`PersonName`プロパティを持った`Person`オブジェクトをインスタンス化します。 これは、`Resources`セクションで、`x:Key`に割り当てられます。 
   
  [!code-xaml[SimpleBinding](../../../../samples/snippets/csharp/VS_Snippets_Wpf/SimpleBinding/CSharp/Page1.xaml?highlight=9,37)]  
   
- 強調表示された行を含む、`<TextBlock>`要素にバインドし、<xref:System.Windows.Controls.TextBlock>コントロールを`PersonName`プロパティです。 その結果、<xref:System.Windows.Controls.TextBlock>値"Joe"とともに表示されます。  
+ 強調表示された`<TextBlock>`要素を含む行で、<xref:System.Windows.Controls.TextBlock>コントロールを`PersonName`プロパティにバインドします。 その結果、<xref:System.Windows.Controls.TextBlock>に値"Joe"が表示されます。  
   
 ## <a name="see-also"></a>関連項目  
  [データ バインディングの概要](../../../../docs/framework/wpf/data/data-binding-overview.md)  
